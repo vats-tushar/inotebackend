@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://vats-tushar.github.io/inotebook/",
+    origin: "https://vats-tushar.github.io",
     methods: ["GET","POST","DELETE","PUT"]
   })
 );
